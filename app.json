@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "CompassAML",
+    "slug": "CompassAML",
+    "version": "3.2.74",
+    "orientation": "portrait",
+    "icon": "./assets/appstore.png",
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "userInterfaceStyle": "automatic",
+    "assetBundlePatterns": ["**/*"],
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/appstore.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.quantumdataengines.app.compassapp"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "ios": {
+      "bundleIdentifier": "com.quantumdataengines.app.compassapp",
+      "supportsTablet":false,
+      "buildNumber":"2",
+      "infoPlist": {
+        "NSLocationWhenInUseUsageDescription": "",
+        "NSLocationAlwaysAndWhenInUseUsageDescription": ""
+      }
+    }
+  }
+}
